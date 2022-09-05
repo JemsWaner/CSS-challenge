@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Lato";
+  margin: 0;
+}
+header {
+  border-bottom: solid 6px rgb(102, 102, 101);
+}
+.title {
+  margin-bottom: 24px;
+}
+p {
+  margin-bottom: 16px;
+}
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+.max-width-wrapper {
+  width: 60%;
+  margin: auto;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+main {
+  background-color: darkgray;
+}
+.intro-chunk,
+.card {
+  padding: 7px 20px;
+}
+.indented-heading {
+  background-color: hsl(45deg, 89%, 50%);
+  border-bottom: solid 7px hsl(45deg, 100%, 40%);
+  font-size: 19px;
+  width: fit-content;
+  padding: 10px 24px;
+  margin-left: -25px;
+  margin-bottom: 10px;
+}
+.card {
+  background-color: white;
+  border-bottom: solid 6px rgb(102, 102, 101);
+}
